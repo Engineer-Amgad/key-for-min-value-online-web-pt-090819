@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     binding
   if name_hash.empty?
     return nil
-    break
+    #break
   else 
     name_hash.each do |ke, val|
       if min_value > val
