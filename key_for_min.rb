@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     min_key = ""
   if name_hash.empty?
     return nil
+    break
   else 
     name_hash.each do |ke, val|
       min_value = val
