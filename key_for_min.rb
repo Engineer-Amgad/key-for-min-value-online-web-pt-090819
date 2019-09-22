@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     min_value = 0 
     min_key = ""
     min_ke, min_val = name_hash.first 
-    binding.pry
+    #binding.pry
   if name_hash.empty?
     return nil
     #break
